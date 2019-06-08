@@ -1,6 +1,7 @@
 # LeetCode Selenium 动态爬虫 / LeetCode Selenium Dynamic Web Scraper
 
 [![Build Status](https://travis-ci.com/imba-tjd/Selenium-Web-Scraper.svg?branch=master)](https://travis-ci.com/imba-tjd/Selenium-Web-Scraper)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fimba-tjd%2FSelenium-Web-Scraper.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fimba-tjd%2FSelenium-Web-Scraper?ref=badge_shield)
 
 有时候网页内容是JS动态生成的，直接用http请求无法获取到。此时可以用Selenium控制浏览器加载网页，获取加载完后的DOM。\
 Sometimes the web page are produced dynamically by JS, which can't be gotten only by https protocol. At this time you can use Selenium to control browser to load web page, and get the loaded DOM.
@@ -56,3 +57,7 @@ Program -- FFFactory -- LCScrapper -- ParseProblems() -- LCProblemParser -- LCPr
 * MyWait：`WebDriverWait` 和 `ExpectedConditions` 的包装类 / Wrapper of `WebDriverWait` and `ExpectedConditions`
 * LCScraper：主类。`LoadProblems()` 获取所有问题的URL，`ParseProblems()` 获取问题内容，生成问题对象，`Save()` 保存数据 / Core class. `LoadProblems()` gets problems' URL, `ParseProblems()` gets problems' content, `Save()` saves the data.
 * Demo：一些测试，与程序主体无关，具体见[Demo](./Demo) / Some important tests but not directly relate to the core. See [Demo](./Demo) for details.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fimba-tjd%2FSelenium-Web-Scraper.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fimba-tjd%2FSelenium-Web-Scraper?ref=badge_large)
